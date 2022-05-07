@@ -1,22 +1,38 @@
 body {
     font-family: 'helvetica', 'sans-serif';
     margin: 0;
+    background-image: url("Gaming\ Webiste\ pics/creed-bg.jpg");
+    /* background-position: center; */
+    /* background-repeat:repeat; */
+    /* background-size: 50%; */
+    /* background-image: url('Gaming Webiste pics/valo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
 }
 
 /* start: global style rules */
 h1, h2, h3, h4, h5 {
-    line-height: 1.5;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1;
     font-weight: 300;
     margin: 0.5em 0;
 }
 
-h1 {
-    font-size: 2.5em;
+.form-bg {
+    background: rgba(255,255,255,0.2);
+    padding: 20px 20px;
+    border-radius: 20px;
 }
 
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
 
 h2 {
     font-size: 2em;
+    font-weight: bold;
 }
 
 h3 {
@@ -36,18 +52,28 @@ a {
 }
 
 p, label, strong {
+    color: white;
     line-height: 2;
-    font-size: 0.85em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
     font-weight: 300;
 }
 
+.logo-img {
+    /* width: 80px; */
+    width: 100px;
+    cursor: pointer;
+}
+
 .flex {
-    display: flex;
+    display:flex;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    /* margin: 0 auto; */
+    /* padding: 0 15px; */
     justify-content: space-between;
 }
+
+
 
 .badge {
     padding: 9px 20px;
@@ -60,29 +86,29 @@ p, label, strong {
 }
 
 .badge.new {
-    background-color: #FF205F;
+    background-color: #EA4335;
 }
 
 .badge.strategy {
-    background-color: #4EAE60;
+    background-color: #c44914;
 }
 
 .badge.racing {
-    background-color: #694EAE;
+    background-color: #400fbd;
 }
 
 .badge.rpg,
 .badge.adventure {
-    background-color: #40ABF5;
+    background-color: #537690;
 }
 
 .badge.tournaments {
-    background-color: #FB6E10;
+    background-color: #8e92b0;
 }
 
 .badge.premium-tournament {
-    background-color: #FFB320;
-    color: #252525;
+    background-color: #ee1010;
+    color: #a29696;
 }
 
 .shade {
@@ -99,14 +125,14 @@ p, label, strong {
 /* start: header styles */
 header {
     background-color: #131313;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     position: relative;
-    border-bottom: 1px solid #FFB320;
+    border-bottom: 1px solid #d10202;
 }
 
 .hamburger-menu {
     background-color: transparent;
-    border: 1px solid #FFB320;
+    border: 1px solid #f70404;
     padding: 3px 5px;
     width: 30px;
     cursor: pointer;
@@ -116,8 +142,14 @@ header {
 .hamburger-menu .strip {
     display: block;
     height: 1px;
-    background-color: #FFB320;
+    background-color: #fd0e0e;
     margin: 4px 0;
+}
+
+nav {
+    text-align: left;
+    /* margin-left: 890px; */
+    /* margin-right: 60px; */
 }
 
 nav ul {
@@ -142,19 +174,34 @@ nav ul li a:hover {
 }
 
 #login-register-button {
-    background-color: #FFB320;
+    background-color: #f40c0c;
     color: #131313;
     border-radius: 20px;
     padding: 10px 15px;
     font-size: 0.85em;
     font-weight: 600;
+    height: 7%;
+    width: 12%;
+
 }
+
+
 /* end: header styles */
+
+input, textarea, select, textarea , option, textarea::placeholder{
+    background-color: rgb(126, 126, 126);
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  option {
+      color: white;
+  }
 
 /* start: hero styles */
 #hero-image {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg') top center no-repeat;
-    height: 820px;
+    background: url('Gaming Webiste pics/EldenRing.jpg') top center no-repeat;
+    height: 900px;
 }
 
 .hero-marketing-text {
@@ -175,7 +222,7 @@ nav ul li a:hover {
 }
 
 .hero-marketing-text span {
-    color: #FFB320;
+    color: #af0505;
 }
 
 .hero-marketing-text h5 {
@@ -188,7 +235,7 @@ nav ul li a:hover {
 }
 
 .hero-marketing-text button {
-    background-color: #FFB320;
+    background-color: #e80b0b;
     color: #131313;
     border-radius: 25px;
     padding: 15px 25px;
@@ -212,7 +259,7 @@ nav ul li a:hover {
 
 #latest-news .flex h5 {
     flex-basis: 25%;
-    background-color: #FFB320;
+    background-color: #fb0c0c;
     padding: 25px;
     margin: 0;
     text-align: right;
@@ -248,22 +295,22 @@ nav ul li a:hover {
 }
 
 #game-types-boxes .box.new {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/wow_lady.jpg') top center no-repeat;
+    background: url('Gaming Webiste pics/wow_lady.jpg') top center no-repeat;
     background-size: cover;
 }
 
 #game-types-boxes .box.strategy {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/robotic_ninja.jpg') top center no-repeat;
+    background: url('Gaming Webiste pics/robotic_ninja.jpg') top center no-repeat;
     background-size: cover;
 }
 
 #game-types-boxes .box.rpg {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/jeep_armed.jpg') top center no-repeat;
+    background: url('Gaming Webiste pics/jeep_armed.jpg') top center no-repeat;
     background-size: cover;
 }
 
 #game-types-boxes .box.racing {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/sports_car.jpg') top center no-repeat;
+    background: url('Gaming Webiste pics/sports_car.jpg') top center no-repeat;
     background-size: cover;
 }
 
@@ -292,7 +339,7 @@ nav ul li a:hover {
 
 /* start: recent games styles */
 #recent-games {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png') top center no-repeat;
+    background: url('Gaming Webiste pics/recent_games_bg.png') top center no-repeat;
     background-color: #eef2f6;
     border-top: 1px solid #d6dee7;
     border-bottom: 1px solid #d6dee7;
@@ -336,7 +383,7 @@ nav ul li a:hover {
 
 /* start: tournaments styles */
 #tournaments {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
+    background: url('Gaming Webiste pics/footer_bg_pattern.png') 0 0 repeat;
     padding: 125px 0 105px;
 }
 
@@ -402,7 +449,7 @@ nav ul li a:hover {
 
 /* start: recent reviews styles */
 #recent-reviews {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_reviews_bg.png') top right no-repeat;
+    background: url('Gaming Webiste pics/recent_reviews_bg.png') top right no-repeat;
     background-size: cover;
     padding: 75px 0 50px;
 }
@@ -458,7 +505,7 @@ nav ul li a:hover {
 
 /* start: posts/comments styles */
 #posts-comments {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
+    background: url('Gaming Webiste pics/footer_bg_pattern.png') 0 0 repeat;
     padding: 75px 0;
 }
 
@@ -846,3 +893,237 @@ footer ul li a {
     }
 }
 /* end: media queries */
+
+body {
+	margin:  0;
+}
+.page-content {
+	width: 100%;
+	margin:  0 auto;
+	background: #d11c1c;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-o-justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-o-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+}
+.form-v9-content  {
+	width: 975px;
+	border-radius: 15px;
+	-o-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	margin: 185px 0;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	position: relative;
+}
+.form-v9-content .form-detail {
+    padding: 30px 135px 30px 100px;
+	position: relative;
+}
+.form-v9-content .form-detail h2 {
+	font-size: 35px;
+	text-align: center;
+	position: relative;
+	padding: 16px 0 13px;
+	margin-bottom: 55px;
+}
+.form-v9-content .form-detail h2::after {
+	background: #fff;
+	width: 73px;
+	height: 3px;
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+    transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+.form-v9-content .form-row-total {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -o-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.form-v9-content .form-row {
+    width: 45%;
+}
+.form-v9-content .form-detail .form-row-last {
+	text-align: center;
+}
+.form-v9-content .form-detail .input-text {
+	margin-bottom: 45px;
+}
+.form-v9-content .form-detail input {
+	width: 100%;
+    padding: 14.5px 0px 14.5px 30px;
+    border: 2px solid #ccc;
+    appearance: unset;
+    -moz-appearance: unset;
+    -webkit-appearance: unset;
+    -o-appearance: unset;
+    -ms-appearance: unset;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    border-radius: 27.5px;
+	-o-border-radius: 27.5px;
+	-ms-border-radius: 27.5px;
+	-moz-border-radius: 27.5px;
+	-webkit-border-radius: 27.5px;
+	font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.2)
+}
+.form-v9-content .form-detail input:focus {
+	border: 2px solid #999;
+}
+.form-v9-content .form-detail .register {
+	background: #f25d5d;
+	border-radius: 25px;
+	-o-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border: none;
+	margin: 20px 0 73px 35px;
+	cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
+.form-v9-content .form-detail .register:hover {
+	background: #d95252;
+}
+.form-v9-content .form-detail .form-row-last input {
+	padding: 14px;
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e5e5e5;
+  font-size: 16px;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #e5e5e5;
+  font-size: 16px;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #e5e5e5;
+  font-size: 16px;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: #e5e5e5;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+	.form-v9-content {
+	    margin: 185px 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.form-v9-content .form-row-total {
+		flex-direction: column;
+		-o-flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+	}
+	.form-v9-content .form-row {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 575px) {
+	.form-v9-content .form-detail {
+	    padding: 30px 45px 30px 10px;
+	}
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+

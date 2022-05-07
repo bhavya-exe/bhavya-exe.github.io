@@ -1,17 +1,22 @@
 body {
     font-family: 'helvetica', 'sans-serif';
     margin: 0;
+    background-image: url("Gaming\ Webiste\ pics/footer_bg_pattern.png") bottom center;
+    background-color: #252525;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 /* start: global style rules */
 h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue', cursive;
     line-height: 1.5;
     font-weight: 300;
     margin: 0.5em 0;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 h2 {
@@ -35,10 +40,22 @@ a {
 }
 
 p, label, strong {
+    color: white;
+    font-family: 'Poppins', sans-serif;
     line-height: 2;
-    font-size: 0.85em;
+    font-size: 1em;
     font-weight: 300;
 }
+
+.social-icons {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .social-icon {
+      color: white;
+    padding: 10px;
+  }
 
 .logo-img {
     /* width: 80px; */
@@ -48,12 +65,19 @@ p, label, strong {
 
 .flex {
     display:flex;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     /* margin: 0 auto; */
     /* padding: 0 15px; */
     justify-content: space-between;
 }
+ .yoo {
+     margin-top: 2.8rem;
+ }
 
+ .yoo-2 {
+    margin-top: 2.8rem;
+    margin-right: 1.5rem;
+}
 
 
 .badge {
@@ -171,7 +195,7 @@ nav ul li a:hover {
 
 /* start: hero styles */
 #hero-image {
-    background: url('Gaming Webiste pics/EldenRing.jpg') top center no-repeat;
+    background: url('Gaming Webiste pics/elden.jpg');
     height: 900px;
 }
 
@@ -254,354 +278,9 @@ nav ul li a:hover {
 }
 /* end: latest news styles */
 
-/* start: game types styles */
-#game-types-boxes {
-    margin-bottom: 75px;
-}
-
-#game-types-boxes .box {
-    flex-basis: 25%;
-    position: relative;
-    height: 380px;
-}
-
-#game-types-boxes .box.new {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/wow_lady.jpg') top center no-repeat;
-    background-size: cover;
-}
-
-#game-types-boxes .box.strategy {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/robotic_ninja.jpg') top center no-repeat;
-    background-size: cover;
-}
-
-#game-types-boxes .box.rpg {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/jeep_armed.jpg') top center no-repeat;
-    background-size: cover;
-}
-
-#game-types-boxes .box.racing {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/sports_car.jpg') top center no-repeat;
-    background-size: cover;
-}
-
-#game-types-boxes .box .badge {
-    position: relative;
-    z-index: 2;
-    top: 20px;
-    left: 20px;
-}
-
-#game-types-boxes .box .contents {
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    left: 0;
-    color: #eee;
-    padding: 0 35px 0 25px;
-}
-
-#game-types-boxes .box .contents a {
-    font-size: 0.8em;
-    font-weight: 300;
-    color: #999;
-}
-/* end: game types styles */
-
-/* start: recent games styles */
-#recent-games {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png') top center no-repeat;
-    background-color: #eef2f6;
-    border-top: 1px solid #d6dee7;
-    border-bottom: 1px solid #d6dee7;
-    padding: 70px 0 120px;
-}
-
-#recent-games h1 {
-    text-align: center;
-}
-
-#recent-games .box {
-    position: relative;
-    flex-basis: 31%;
-    background-color: #fff;
-}
-
-#recent-games .box .badge {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-}
-
-#recent-games .box img {
-    width: 100%;
-}
-
-#recent-games .box .box-lower-section {
-    padding: 20px;
-}
-
-#recent-games .box .box-lower-section p {
-    color: #999;
-}
-
-#recent-games .box .box-lower-section a {
-    color: #999;
-    font-size: 0.8em;
-}
-/* end: recent games styles */
-
-/* start: tournaments styles */
-#tournaments {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
-    padding: 125px 0 105px;
-}
-
-#tournaments .flex {
-    position: relative;
-}
-
-#tournaments .badge {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-
-#tournaments .badge.tournaments {
-    top: -32px;
-    left: 15px;
-}
-
-#tournaments .box {
-    background-color: #252525;
-    padding: 70px 20px 40px;
-    flex-basis: 45%;
-    position: relative;
-}
-
-#tournaments .box .tournaments-image {
-    float: left;
-    width: 30%;
-}
-
-#tournaments .box .tournaments-image img {
-    width: 100%;
-}
-
-#tournaments .box .tournaments-content {
-    float: left;
-    margin-left: 25px;
-    width: 60%;
-}
-
-#tournaments .box .tournaments-content h3 {
-    color: #FFB320;
-    margin-top: 0;
-}
-
-#tournaments .box .tournaments-content label {
-    color: #999;
-    font-size: 0.75em;
-}
-
-#tournaments .box .tournaments-content label.prizes {
-    color: #FFB320;
-    display: inline-block;
-    margin-top: 12px;
-}
-
-#tournaments .box .tournaments-content strong {
-    color: #eee;
-    font-size: 0.75em;
-}
-/* end: tournaments styles */
-
-/* start: recent reviews styles */
-#recent-reviews {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_reviews_bg.png') top right no-repeat;
-    background-size: cover;
-    padding: 75px 0 50px;
-}
-
-#recent-reviews h1 {
-    text-align: center;
-    margin-bottom: 1.65em;
-}
-
-#recent-reviews .box {
-    flex-basis: 23%;
-    position: relative;
-    text-align: center;
-}
-
-#recent-reviews .box .rating-badge {
-    border-radius: 28px;
-    padding: 13px;
-    font-size: 1.1em;
-    color: #eee;
-    font-weight: 600;
-    background-color: #FFB320;
-    position: absolute;
-    top: -30px;
-    left: 30px;
-}
-
-#recent-reviews .box .rating-badge.purple {
-    background-color: #694EAE;
-}
-
-#recent-reviews .box .rating-badge.green {
-    background-color: #4EAE60;
-}
-
-#recent-reviews .box .rating-badge.violet {
-    background-color: #FF20AE;
-}
-
-#recent-reviews .box .recent-reviews-image {
-    margin-bottom: 0.75em;
-    overflow: hidden;
-}
-
-#recent-reviews .box .recent-reviews-image img {
-    width: 100%;
-}
-
-#recent-reviews .box p {
-    color: #999;
-}
-/* end: recent reviews styles */
-
-/* start: posts/comments styles */
-#posts-comments {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
-    padding: 75px 0;
-}
-
-#posts-comments .game-warrior {
-    flex-basis: 32%;
-    position: relative;
-}
-
-#posts-comments .game-warrior p {
-    color: #eee;
-    font-weight: 600;
-}
-
-#posts-comments .game-warrior img {
-    margin-bottom: 0.5em;
-}
-
-#posts-comments .game-warrior img.footer-graphic {
-    position: absolute;
-    margin-bottom: 0;
-    width: 115%;
-}
-
-#posts-comments .posts-comments-box {
-    flex-basis: 28%;
-    background-color: #252525;
-    padding: 20px 20px 25px;
-    border: 1px solid #4a4a4a;
-}
-
-#posts-comments .posts-comments-box h3 {
-    color: #eee;
-}
-
-.post-item {
-    margin-top: 25px;
-}
-
-.post-item:first-child {
-    margin-top: 0;
-}
-
-.post-item:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.post-item img {
-    float: left;
-    width: 30%;
-}
-
-.post-item > div {
-    float: left;
-    margin-left: 5%;
-    width: 65%;
-}
-
-.post-item > div h5 {
-    color: #FFB320;
-    font-size: 0.8em;
-    margin-top: 0;
-}
-
-.post-item > div p {
-    color: #eee;
-    margin: 5px 0;
-    font-size: 0.8em;
-}
-
-.post-item > div small {
-    color: #999;
-    font-size: 0.75em;
-}
-
-.comments-item {
-    margin-top: 1em;
-}
-
-.comments-item:first-child {
-    margin-top: 0;
-}
-
-.comments-item:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.comments-item img {
-    width: 23%;
-    height: auto;
-    border-radius: 50%;
-    float: left;
-}
-
-.comments-item > div {
-    float: left;
-    margin-left: 7%;
-    width: 70%;
-}
-
-.comments-item > div p {
-    color: #eee;
-    font-size: 0.8em;
-    margin: 0 0 5px;
-}
-
-.comments-item > div p span {
-    color: #999;
-}
-
-.comments-item > div p span.author {
-    color: #E92159;
-}
-
-.comments-item > div h5 {
-    color: #FFB320;
-    font-size: 0.8em;
-    margin-top: 0;
-}
-/* end: posts/comments styles */
 
 /* start: footer styles */
+
 footer {
     background-color: #252525;
     padding: 25px 0 20px;
@@ -634,236 +313,11 @@ footer ul li a {
     color: #ddd;
     font-size: 0.8em;
 }
+
+
 /* end: footer styles */
 
-/* start: media queries */
-@media (max-width: 1200px) {
-    .flex {
-        max-width: 1000px;
-    }
 
-    .latest-news-item {
-        font-size: 0.8em;
-    }
-
-    #tournaments .box .tournaments-content {
-        margin-left: 15px;
-    }
-
-    #tournaments .box .tournaments-content h3 {
-        font-size: 1.4em;
-        margin-bottom: 0.2em;
-    }
-}
-
-@media (max-width: 991px) {
-    .flex {
-        max-width: 720px;
-    }
-
-    nav ul li {
-        margin: 0 12px;
-        font-size: 0.85em;
-    }
-
-    #latest-news .flex h5 {
-        width: 15%;
-    }
-
-    #game-types-boxes .flex {
-        flex-wrap: wrap;
-    }
-
-    #game-types-boxes .box {
-        flex-basis: 50%;
-    }
-
-    #tournaments .box {
-        flex-basis: 42%;
-    }
-
-    #tournaments .box .tournaments-image {
-        float: none;
-        width: 100%;
-        margin-bottom: 10px;
-        height: 250px;
-        overflow: hidden;
-    }
-
-    #tournaments .box .tournaments-content {
-        margin-left: 0;
-        width: 100%;
-    }
-    
-    #recent-reviews {
-        background: none;
-    }
-
-    #recent-reviews .flex {
-        flex-wrap: wrap;
-    }
-
-    #recent-reviews .box {
-        flex-basis: 48%;
-        margin-bottom: 45px;
-    }
-
-    #posts-comments .flex {
-        flex-wrap: wrap;
-    }
-
-    #posts-comments .game-warrior {
-        flex-basis: 100%;
-        margin-bottom: 40px;
-    }
-
-    #posts-comments .posts-comments-box {
-        flex-basis: 43%;
-    }
-
-    #posts-comments .game-warrior img.footer-graphic {
-        display: none;
-    }
-
-    footer .flex {
-        flex-wrap: wrap-reverse;
-    }
-
-    footer small {
-        flex-basis: 100%;
-        font-size: 0.75em;
-        text-align: center;
-        margin-top: 20px;
-        line-height: 1.5;
-    }
-
-    footer ul {
-        flex-basis: 100%;
-        text-align: center;
-        padding: 0;
-    }
-} /* end 991px */
-
-@media (max-width: 767px) {
-    h4 {
-        font-size: 1.2em;
-    }
-
-    .flex {
-        max-width: 540px;
-    }
-
-    nav ul {
-        display: none;
-        position: absolute;
-        top: 101%;
-        width: 100%;
-        background-color: #131313;
-        left: 0;
-        padding: 0;
-        margin: 0;
-        z-index: 1;
-    }
-
-    nav ul li {
-        display: block;
-        padding: 15px 0 15px 20px;
-        border-bottom: 1px solid #FFB320;
-        margin: 0;
-    }
-
-    nav ul li a {
-        font-size: 1em;
-    }
-
-    .hamburger-menu {
-        display: block;
-        margin-top: 2px;
-    }
-
-    #hero-image {
-        height: 650px;
-        background-size: cover;
-    }
-
-    .hero-marketing-text {
-        margin-top: -85px;
-    }
-
-    .hero-marketing-text h1 {
-        font-size: 2.5em;
-    }
-
-    #latest-news .flex h5 {
-        display: none;
-    }
-
-    #latest-news-container {
-        flex-basis: 100%;
-    }
-
-    #recent-games {
-        padding: 60px 0;
-    }
-
-    #game-types-boxes .box,
-    #recent-games .box {
-        flex-basis: 100%;
-        margin-bottom: 30px;
-    }
-
-    #recent-games .flex,
-    #tournaments .flex {
-        flex-wrap: wrap;
-    }
-
-    #tournaments .box {
-        flex-basis: 100%;
-        margin-bottom: 20px;
-    }
-
-    #tournaments .box .tournaments-image {
-        height: 400px;
-    }
-
-    #recent-reviews .box {
-        flex-basis: 100%;
-    }
-
-    #recent-reviews .box .recent-reviews-image {
-        height: 400px;
-    }
-
-    #posts-comments .posts-comments-box {
-        flex-basis: 100%;
-        margin-bottom: 40px;
-    }
-
-    footer ul li {
-        margin: 0 10px;
-    }
-
-    footer ul li a {
-        font-size: 0.75em;
-    }
-} /* end 767px */
-
-@media (max-width: 400px) {
-    .logo img {
-        width: 150px;
-        margin-top: 2px;
-    }
-
-    #login-register-button {
-        padding: 10px;
-        font-size: 0.65em;
-    }
-
-    #tournaments .box .tournaments-image {
-        height: 220px;
-    }
-}
-/* end: media queries */
 
 body {
 	margin:  0;
@@ -885,157 +339,7 @@ body {
 	-moz-align-items: center;
 	-webkit-align-items: center;
 }
-.form-v9-content  {
-	width: 975px;
-	border-radius: 15px;
-	-o-border-radius: 15px;
-	-ms-border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	margin: 185px 0;
-	font-family: 'Nunito', sans-serif;
-	color: #fff;
-	font-weight: 700;
-	font-size: 16px;
-	position: relative;
-}
-.form-v9-content .form-detail {
-    padding: 30px 135px 30px 100px;
-	position: relative;
-}
-.form-v9-content .form-detail h2 {
-	font-size: 35px;
-	text-align: center;
-	position: relative;
-	padding: 16px 0 13px;
-	margin-bottom: 55px;
-}
-.form-v9-content .form-detail h2::after {
-	background: #fff;
-	width: 73px;
-	height: 3px;
-	content: "";
-	position: absolute;
-	top: 100%;
-	left: 50%;
-    transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-}
-.form-v9-content .form-row-total {
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-between;
-    -o-justify-content: space-between;
-    -ms-justify-content: space-between;
-    -moz-justify-content: space-between;
-    -webkit-justify-content: space-between;
-}
-.form-v9-content .form-row {
-    width: 45%;
-}
-.form-v9-content .form-detail .form-row-last {
-	text-align: center;
-}
-.form-v9-content .form-detail .input-text {
-	margin-bottom: 45px;
-}
-.form-v9-content .form-detail input {
-	width: 100%;
-    padding: 14.5px 0px 14.5px 30px;
-    border: 2px solid #ccc;
-    appearance: unset;
-    -moz-appearance: unset;
-    -webkit-appearance: unset;
-    -o-appearance: unset;
-    -ms-appearance: unset;
-    outline: none;
-    -moz-outline: none;
-    -webkit-outline: none;
-    -o-outline: none;
-    -ms-outline: none;
-    border-radius: 27.5px;
-	-o-border-radius: 27.5px;
-	-ms-border-radius: 27.5px;
-	-moz-border-radius: 27.5px;
-	-webkit-border-radius: 27.5px;
-	font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    background: rgba(255, 255, 255, 0.2)
-}
-.form-v9-content .form-detail input:focus {
-	border: 2px solid #999;
-}
-.form-v9-content .form-detail .register {
-	background: #f25d5d;
-	border-radius: 25px;
-	-o-border-radius: 25px;
-	-ms-border-radius: 25px;
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
-	width: 180px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	-o-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	-ms-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	border: none;
-	margin: 20px 0 73px 35px;
-	cursor: pointer;
-	font-family: 'Nunito', sans-serif;
-	color: #fff;
-	font-weight: 700;
-	font-size: 16px;
-}
-.form-v9-content .form-detail .register:hover {
-	background: #d95252;
-}
-.form-v9-content .form-detail .form-row-last input {
-	padding: 14px;
-}
-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #e5e5e5;
-  font-size: 16px;
-}
-input::-moz-placeholder { /* Firefox 19+ */
-  color: #e5e5e5;
-  font-size: 16px;
-}
-input:-ms-input-placeholder { /* IE 10+ */
-  color: #e5e5e5;
-  font-size: 16px;
-}
-input:-moz-placeholder { /* Firefox 18- */
-  color: #e5e5e5;
-  font-size: 16px;
-}
 
-/* Responsive */
-@media screen and (max-width: 1199px) {
-	.form-v9-content {
-	    margin: 185px 20px;
-	}
-}
-@media screen and (max-width: 767px) {
-	.form-v9-content .form-row-total {
-		flex-direction: column;
-		-o-flex-direction: column;
-		-ms-flex-direction: column;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-	}
-	.form-v9-content .form-row {
-		width: 100%;
-	}
-}
-@media screen and (max-width: 575px) {
-	.form-v9-content .form-detail {
-	    padding: 30px 45px 30px 10px;
-	}
-}
 
 
 
@@ -1089,11 +393,4 @@ input:-moz-placeholder { /* Firefox 18- */
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
   
