@@ -58,16 +58,12 @@ p, label, strong {
   }
 
 .logo-img {
-    /* width: 80px; */
     width: 100px;
     cursor: pointer;
 }
 
 .flex {
     display:flex;
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    /* padding: 0 15px; */
     justify-content: space-between;
 }
  .yoo {
@@ -153,8 +149,6 @@ header {
 
 nav {
     text-align: left;
-    /* margin-left: 890px; */
-    /* margin-right: 60px; */
 }
 
 nav ul {
